@@ -38,7 +38,6 @@ nav > header , a{
 #navMobile{
     display: none;
 }
-#msg{display: none;}
 
 /* INFO */
  #info{
@@ -319,16 +318,7 @@ form button{
     #navLinks a:hover{
         color: blue;
     }
-    #msg {
-        display: block;
-        font-size: 2em;
-        position: absolute;
-        margin-left: 30%;
-        margin-top: 3%;
-        color: var(--bisque);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        filter: drop-shadow(2px 2px 1px black);
-    }
+
     /* INFO */
     #info{
         padding-top: 100px;
