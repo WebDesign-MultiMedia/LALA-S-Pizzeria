@@ -312,12 +312,12 @@ form button{
         margin-left: 1px;
 
     }
-    #navLinks a{
+/*     #navLinks a{
         display: inline-block;
     }
     #navLinks a:hover{
         color: blue;
-    }
+    } */
 
     /* INFO */
     #info{
