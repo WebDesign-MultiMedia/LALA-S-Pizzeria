@@ -1,0 +1,420 @@
+body{
+    background-color:var(--red);
+}
+:root{
+    --red: red;
+    --white: white;
+    --bisque: bisque;
+}
+/* NAV BAR */
+nav{
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 5rem;
+    background-color: var(--red);
+    border-bottom: 1px solid black;
+    z-index: 2;
+}
+nav > header{
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    filter: drop-shadow(1px 1px 1px black);
+}
+nav > header , a{
+    color: white;
+    margin: 6px;
+    padding-inline-start: 50px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+}
+#navMobile{
+    display: none;
+}
+#msg{display: none;}
+
+/* INFO */
+ #info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+#info img{
+    width: 20%;
+}
+#info > i{
+    color: var(--white);
+    filter: drop-shadow(1px 1px 2px black);
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#info > strong{
+    position: relative;
+    top: -20px;
+    font-size: 1.3rem;
+    color: var(--white);
+        filter: drop-shadow(1px 1px 2px black);
+
+}
+
+/* SECTION */
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+}
+section > h2{
+    color: var(--bisque);
+    border-bottom: 2px solid var(--bisque);
+}
+section > ol li{
+    list-style-type: none;
+    text-align: left;
+    color: var(--white);
+    position: relative;
+}
+section > ol h3{
+    text-align: center;
+    color: var(--white);
+    filter: drop-shadow(1px 3px 1px black);
+}
+
+/* ASIDE */
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+aside > h2{
+     color: var(--bisque);
+    border-bottom: 2px solid var(--bisque);
+}
+aside > p{
+    color: var(--white);
+    filter: drop-shadow(3px 2px 1px black);
+}
+aside > a{
+    position: relative;
+    left: -2%;
+    top: -10px;
+}
+/* FOOTER */
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer > h3{
+         color: var(--bisque);}
+footer h4{
+    position: relative;
+    top: -15px;
+}
+footer ol{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+#img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#fb{
+    width: 5%;
+}
+#insta{
+    width:5%;
+}
+#slice{
+    width: 4%;
+}
+#uberEats{
+    width: 4.5%;
+}
+#grubHub{
+    width: 8%;
+}
+#doordash{
+    width: 4%;
+}
+
+/* MENU PAGE */
+ /*         */
+
+ main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--red);
+    padding: 200px;
+    text-align: center;
+ }
+ main  #toppings{
+    color: aqua;
+    position: relative;
+ }
+ main ol li{
+    list-style: none;
+    border-left: 1px solid white;
+ }
+ main h3{
+     color: var(--bisque);
+    border-bottom: 2px solid var(--bisque);
+    border-right: 1px solid white;
+    filter: drop-shadow(4px -5px 2px black);
+ }
+main li{
+    color: var(--white);
+}
+main > ol li{
+    color:var(--white);
+    filter: drop-shadow(2px 2px 3px black);
+}
+main span{
+    color: var(--bisque);
+    font-weight: bold;
+}
+
+#i{
+        filter: drop-shadow(2px 2px 3px black);
+        padding: 15px;
+}
+main ol  li{
+     padding: 5px;
+    font-weight: bold;
+}
+#menuTitle{
+    font-size: 4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: var(--bisque);
+        filter: drop-shadow(2px 2px 3px black);
+
+}
+
+/* CONTACT PAGE */
+header > h1{
+     font-size: 4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: var(--bisque);
+        filter: drop-shadow(2px 2px 3px black);
+}
+.forms  h2{
+    text-align: center;
+    color: var(--white);
+            filter: drop-shadow(2px 2px 3px black);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.forms{
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+    position: relative;
+    top: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    align-items: center;
+    margin: 20px;
+}
+form > label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--white);
+            filter: drop-shadow(2px 2px 3px black);
+}
+input{
+    width: 50%;
+    border: none;
+}
+textarea{
+    position: relative;
+    top: 20px;
+    width: 90%;
+    height: 100px;
+}
+form button{
+    z-index: 2;
+    margin: 40px;
+}
+#logo{
+    width: 10%;
+    position:fixed;
+    top: 0;
+    padding-left: 100px;
+    padding-top: 8em;
+    animation-name: rotate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+@keyframes rotate {
+    0%{rotate: 0deg;}
+    25%{rotate: 40deg;}
+    50%{rotate: -40deg;}
+    75%{rotate: 40deg;}
+    100%{rotate: 0deg;}
+}
+
+
+@media (max-width: 800px) {
+    body{
+        background-color: var(--red);
+    }
+    nav{
+        position: fixed;
+        top: -1px;
+    }
+    nav > header a{
+        color: aqua;
+        padding-left: 10px;
+        display: none;}
+    
+    #navMobile{
+        display: flex;
+        flex-direction: column;
+        
+    }
+     #fa-bar{
+        font-size: 1.5em;
+        margin-left: 5%;
+        margin-top: 2%;
+ 
+    }
+    #navLinks{
+        display: flex;
+        justify-content: space-evenly;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: absolute;
+        top: 0;
+        margin-top: 7%;
+        margin-left: 1px;
+
+    }
+    #navLinks a{
+        display: inline-block;
+    }
+    #navLinks a:hover{
+        color: blue;
+    }
+    #msg {
+        display: block;
+        font-size: 2em;
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 3%;
+        color: var(--bisque);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        filter: drop-shadow(2px 2px 1px black);
+    }
+    /* INFO */
+    #info{
+        padding-top: 100px;
+        text-align: center;
+    }
+    #info img{
+        width: 60%;
+    }
+
+    /* SECTION */
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items:center;   
+    }
+    section ol li h3{
+        color: aqua;
+        margin-right: 20px;
+    }
+    section ol li{
+        margin-left: -35px;
+        text-align: center;
+        font-size: 1.2em;
+        position: relative;
+        top: -25px;
+    }
+
+    /* ASIDE */
+    aside a{
+        margin-left: -20px;
+    }
+    /* FOOTER */
+    #img img{
+        width: 15%;
+    }
+
+    /* MENU */
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        margin-left: -105px;
+        margin-top: 100px;
+        padding: 100px;
+        text-align: left;
+    }
+    main ol{
+        position: relative;
+        left: 1rem;
+    }
+    main ol h3{
+        font-size: 1.4em;
+        text-align: center;
+    }
+    main ol li span{
+        font-size: 1.2em;
+        padding-left: 10px;
+    }
+    main ol li{
+       border: none;
+       color: white;
+    }
+
+    /* CONTACT */
+    .forms{
+        display: flex;
+        flex-direction: column;
+        margin-left: -105px;
+        margin-top: 100px;
+        padding: 100px;
+        text-align: left;
+        z-index: -3;
+    }
+    form{
+        margin-left: 20%;
+    }
+    .forms  h2{
+        text-align: center;
+        margin-left: 30%;
+    }
+
+    #logo{
+        position: absolute;
+        width: 40%;
+        right: 200px;
+        top: -25px;
+        z-index: -4;
+    }
+}
