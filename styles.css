@@ -300,7 +300,7 @@ form button{
         font-size: 1.5em;
         margin-left: 5%;
         margin-top: 2%;
- 
+     display: none;
     }
     #navLinks{
         display: flex;
